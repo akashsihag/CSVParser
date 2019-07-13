@@ -1,0 +1,3 @@
+error_message,name,age,salary,benefits,department
+"The number of columns in the record doesn't match file header spec.","Vikram"	,"22","600" 	,"IT"
+"The datatypes of columns: [department, benefits] doesn't match the datatypes specified in the first test record.","Akash"	,"22" "100000", "SALES"	,"500"

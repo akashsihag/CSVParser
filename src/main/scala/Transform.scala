@@ -13,7 +13,7 @@ object Transform {
       System.exit(0)
     }
     val spark = SparkSession.builder()
-      .appName("Qualys")
+      .appName("CSVParser")
       .master("local[*]")
       .getOrCreate()
 

@@ -1,7 +1,5 @@
-name := "qualys"
-
+name := "CSVParser"
 version := "1.0"
-
 scalaVersion := "2.11.5"
 
 // https://mvnrepository.com/artifact/org.apache.spark/spark-core

@@ -7,7 +7,7 @@ object EmployeeAnalytics {
     Logger.getLogger("org").setLevel(Level.OFF)
     Logger.getLogger("akka").setLevel(Level.OFF)
     val spark = SparkSession.builder()
-      .appName("Qualys")
+      .appName("CSVParser")
       .master("local[*]")
       .getOrCreate()
 
